@@ -171,7 +171,7 @@ while traci.simulation.getMinExpectedNumber() > 0:
 traci.close()
 
 # =========================
-# 📊 SESSION METRICS (ALL VEHICLES)
+# SESSION METRICS (ALL VEHICLES)
 # =========================
 print("\n==============================")
 print("SESSION-BASED METRICS (ALL VEHICLES)")
