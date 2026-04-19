@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2026-03-23T19:35:20.638962+08:00 by Eclipse SUMO netedit v1_26_0+0224-d26b767e896
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <!-- VTypes -->
+    <vType id="DEFAULT_VEHTYPE" minGap="1.50" impatience="0.50" sigma="0.70" tau="0.60"/>
+    <!-- Routes -->
+    <route id="canteen-g1" edges="-97366424#1.155 -626778756#0 97366432#2 97366432#3 626778820#4 626778820#0 E0 E00 97366395#2" color="red"/>
+    <route id="canteen-g2" edges="-97366424#1.155 -626778756#0 97366432#2 97366432#3 626778820#4 626778820#0 626778820#1 97366429#0 97366429#0.53 97366429#2 97366429#3 E1" color="red"/>
+    <route id="canteen-g3" edges="-97366424#1.155 -626778756#0 -97366432#1 -97366432#0" color="red"/>
+    <route id="g1-canteen" edges="97366383 97366383.80 -E0 -E0.78 626778820#1 97366429#0 97366429#0.53 97366429#2 -97366424#3 -97366424#2 -97366424#1 -97366424#1.155"/>
+    <route id="g1-grand" edges="97366383 97366383.80 -E0 -E0.78 626778820#1 97366429#0 97366429#0.53"/>
+    <route id="g1-gs" edges="97366383 97366383.80 -E0 -E0.78 626778820#1 97366429#0 97366429#0.53 97366429#2"/>
+    <route id="g1-gym" edges="97366383 97366383.80 -E0 -E0.78 626778820#1 97366429#0 97366429#0.53 97366429#2 -97366424#3 -97366424#2 -97366424#1 -97366424#1.155 -626778756#0 -97366432#1 97366427"/>
+    <route id="g1-jhs" edges="97366383 97366383.80 -E0 -E0.78 626778820#1 97366429#0 97366429#0.53" color="yellow"/>
+    <route id="g1-park1" edges="97366383 97366383.80 E7" color="yellow"/>
+    <route id="g1-park2" edges="97366383 97366383.80 -E0 E6 E8" color="yellow"/>
+    <route id="g1-pre" edges="97366383 97366383.80 -E0 -E0.78 626778820#1 97366429#0 97366429#0.53 97366429#2 97366429#3"/>
+    <route id="g1-shs" edges="97366383 97366383.80 -E0 -E0.78 626778820#1 97366429#0 97366429#0.53 97366429#2 -97366424#3 -97366424#2 -97366424#1 -97366424#1.155 -626778756#0 97366432#2 -626781659 -97366412"/>
+    <route id="g2-canteen" edges="97366431#1 -1349985628 -97366424#1 -97366424#1.155" color="blue"/>
+    <route id="g2-grand" edges="97366431#1 97366431#2 97366431#3 1349985629#0" color="blue"/>
+    <route id="g2-gs" edges="97366431#1 97366431#2 97366431#3" color="blue"/>
+    <route id="g2-gym" edges="97366431#1 -1349985628 -97366424#1 -97366424#1.155 -626778756#0 -97366432#1 97366427" color="blue"/>
+    <route id="g2-jhs" edges="97366431#1 97366431#2 97366431#3 97366431#4 97366431#5 97366431#6" color="blue"/>
+    <route id="g2-park1" edges="97366431#1 97366431#2 97366431#3 97366431#4 97366431#5 97366431#6 626778820#3 626778820#4 626778820#0 E0 E00 E7" color="blue"/>
+    <route id="g2-park2" edges="97366431#1 97366431#2 97366431#3 97366431#4 97366431#5 97366431#6 626778820#3 626778820#4 626778820#0 626778820#1 97366429#0 -E12 E13" color="blue"/>
+    <route id="g2-pre" edges="97366431#1" color="blue"/>
+    <route id="g2-shs" edges="97366431#1 -1349985628 -97366424#1 -97366424#1.155 -626778756#0 97366432#2 -626781659 -97366412" color="blue"/>
+    <route id="g3-canteen" edges="97366432#0 97366432#1 97366432#2 97366432#3 626778820#4 626778820#0 626778820#1 97366429#0 97366429#0.53 97366429#2 -97366424#3 -97366424#2 -97366424#1 -97366424#1.155" color="green"/>
+    <route id="g3-grand" edges="97366432#0 97366432#1 97366432#2 97366432#3 626778820#4 626778820#0 626778820#1 97366429#0 97366429#0.53" color="green"/>
+    <route id="g3-gs" edges="97366432#0 97366432#1 97366432#2 97366432#3 626778820#4 626778820#0 626778820#1 97366429#0 97366429#0.53 97366429#2" color="green"/>
+    <route id="g3-gym" edges="97366432#0 97366427" color="green"/>
+    <route id="g3-jhs" edges="97366432#0 97366432#1 97366432#2 97366432#3" color="green"/>
+    <route id="g3-park1" edges="97366432#0 97366432#1 97366432#2 97366432#3 626778820#4 626778820#0 E0 E00 E7" color="red"/>
+    <route id="g3-park2" edges="97366432#0 97366432#1 97366432#2 97366432#3 626778820#4 626778820#0 626778820#1 97366429#0 -E12 E13" color="green"/>
+    <route id="g3-pre" edges="97366432#0 97366432#1 97366432#2 97366432#3 626778820#4 626778820#0 626778820#1 97366429#0 97366429#0.53 97366429#2 97366429#3" color="green"/>
+    <route id="g3-shs" edges="97366432#0 97366432#1 97366432#2 -626781659 -97366412" color="green"/>
+    <route id="grand-g1" edges="97366429#2 -97366424#3 97366431#3 97366431#4 97366431#5 97366431#6 626778820#3 626778820#4 626778820#0 E0 E00 97366395#2" color="red"/>
+    <route id="grand-g2" edges="1349985629#1 97366431#6 626778820#3 626778820#4 626778820#0 626778820#1 97366429#0 97366429#0.53 97366429#2 97366429#3 E1" color="red"/>
+    <route id="grand-g3" edges="97366429#2 -97366424#3 -97366424#2 -97366424#1 -97366424#1.155 -626778756#0 -97366432#1 -97366432#0" color="red"/>
+    <route id="grand2-g2" edges="97366429#2 97366429#3 E1" color="red"/>
+    <route id="gs-g1" edges="97366431#3 97366431#4 97366431#5 97366431#6 626778820#3 626778820#4 626778820#0 E0 E00 97366395#2" color="red"/>
+    <route id="gs-g2" edges="97366431#3 97366431#4 97366431#5 97366431#6 626778820#3 626778820#4 626778820#0 626778820#1 97366429#0 97366429#0.53 97366429#2 97366429#3 E1" color="red"/>
+    <route id="gs-g3" edges="-97366424#1 -97366424#1.155 -626778756#0 -97366432#1 -97366432#0" color="red"/>
+    <route id="gym-g1" edges="97366427 626778826 -626778756#0 97366432#2 97366432#3 626778820#4 626778820#0 E0 E00 97366395#2" color="red"/>
+    <route id="gym-g2" edges="97366427 626778826 -626778756#0 97366432#2 97366432#3 626778820#4 626778820#0 626778820#1 97366429#0 97366429#0.53 97366429#2 97366429#3 E1" color="red"/>
+    <route id="gym-g3" edges="97366427 626778826 -626778756#0 -97366432#1 -97366432#0" color="red"/>
+    <route id="jhs-g1" edges="97366431#6 626778820#3 626778820#4 626778820#0 E0 E00 97366395#2" color="red"/>
+    <route id="jhs-g2" edges="97366431#6 626778820#3 626778820#4 626778820#0 626778820#1 97366429#0 97366429#0.53 97366429#2 97366429#3 E1" color="red"/>
+    <route id="jhs-g3" edges="97366431#6 626778820#3 626778820#4 626778820#0 626778820#1 97366429#0 97366429#0.53 97366429#2 -97366424#3 -97366424#2 -97366424#1 -97366424#1.155 -626778756#0 -97366432#1 -97366432#0" color="red"/>
+    <route id="park1-g1" edges="-E9 97366395#2" color="red"/>
+    <route id="park1-g2" edges="-E9 -E0 E6 E8 E9 97366429#0.53 97366429#2 97366429#3 E1" color="red"/>
+    <route id="park2-g1" edges="-E90 -E8 -E6 E00 97366395#2" color="red"/>
+    <route id="park2-g2" edges="-E13 E12 97366429#0.53 97366429#2 97366429#3 E1" color="red"/>
+    <route id="park2-g3" edges="E12 97366429#0.53 97366429#2 -97366424#3 -97366424#2 -97366424#1 -97366424#1.155 -626778756#0 -97366432#1 -97366432#0" color="red"/>
+    <route id="pre-g1" edges="97366431#1 97366431#2 97366431#3 97366431#4 97366431#5 97366431#6 626778820#3 626778820#4 626778820#0 E0 E00 97366395#2" color="red"/>
+    <route id="pre-g2" edges="97366431#1 97366431#2 97366431#3 97366431#4 97366431#5 97366431#6 626778820#3 626778820#4 626778820#0 626778820#1 97366429#0 97366429#0.53 97366429#2 97366429#3 E1" color="red"/>
+    <route id="pre-g3" edges="97366431#1 -1349985628 -97366424#1 -97366424#1.155 -626778756#0 -97366432#1 -97366432#0" color="red"/>
+    <route id="shs-g1" edges="-97366412 -97366412.32 E5 E00 97366395#2" color="red"/>
+    <route id="shs-g2" edges="-97366412 -97366412.32 E5 -E0.78 626778820#1 97366429#0 97366429#0.53 97366429#2 97366429#3 E1" color="red"/>
+    <route id="shs-g3" edges="-97366412 -97366412.32 E5 -E0.78 626778820#1 97366429#0 97366429#0.53 97366429#2 -97366424#3 -97366424#2 -97366424#1 -97366424#1.155 -626778756#0 -97366432#1 -97366432#0" color="red"/>
+    <routeDistribution id="canteen-exit">
+        <route refId="canteen-g3" probability="0.33"/>
+        <route refId="canteen-g1" probability="0.33"/>
+        <route refId="canteen-g2" probability="0.34"/>
+    </routeDistribution>
+    <routeDistribution id="g1Routes">
+        <route refId="g1-canteen" probability="0.11"/>
+        <route refId="g1-gs" probability="0.11"/>
+        <route refId="g1-grand" probability="0.11"/>
+        <route refId="g1-pre" probability="0.11"/>
+        <route refId="g1-shs" probability="0.11"/>
+        <route refId="g1-gym" probability="0.11"/>
+        <route refId="g1-jhs" probability="0.11"/>
+        <route refId="g1-park2" probability="0.11"/>
+        <route refId="g1-park1" probability="0.12"/>
+    </routeDistribution>
+    <routeDistribution id="g2Routes">
+        <route refId="g2-canteen" probability="0.11"/>
+        <route refId="g2-grand" probability="0.12"/>
+        <route refId="g2-gs" probability="0.11"/>
+        <route refId="g2-gym" probability="0.11"/>
+        <route refId="g2-jhs" probability="0.11"/>
+        <route refId="g2-pre" probability="0.11"/>
+        <route refId="g2-shs" probability="0.11"/>
+        <route refId="g2-park2" probability="0.11"/>
+        <route refId="g2-park1" probability="0.11"/>
+    </routeDistribution>
+    <routeDistribution id="g3Routes">
+        <route refId="g3-canteen" probability="0.11"/>
+        <route refId="g3-grand" probability="0.11"/>
+        <route refId="g3-gym" probability="0.12"/>
+        <route refId="g3-jhs" probability="0.11"/>
+        <route refId="g3-pre" probability="0.11"/>
+        <route refId="g3-shs" probability="0.11"/>
+        <route refId="g3-gs" probability="0.11"/>
+        <route refId="g3-park2" probability="0.11"/>
+        <route refId="g3-park1" probability="0.11"/>
+    </routeDistribution>
+    <routeDistribution id="grand-exit">
+        <route refId="grand-g1" probability="0.33"/>
+        <route refId="grand-g3" probability="0.33"/>
+        <route refId="grand2-g2" probability="0.34"/>
+    </routeDistribution>
+    <routeDistribution id="gs-exit">
+        <route refId="gs-g3" probability="0.33"/>
+        <route refId="gs-g1" probability="0.34"/>
+        <route refId="gs-g2" probability="0.33"/>
+    </routeDistribution>
+    <routeDistribution id="gym-exit">
+        <route refId="gym-g3" probability="0.34"/>
+        <route refId="gym-g1" probability="0.33"/>
+        <route refId="gym-g2" probability="0.33"/>
+    </routeDistribution>
+    <routeDistribution id="jhs-exit">
+        <route refId="jhs-g3" probability="0.33"/>
+        <route refId="jhs-g1" probability="0.34"/>
+        <route refId="jhs-g2" probability="0.33"/>
+    </routeDistribution>
+    <routeDistribution id="park1-exit">
+        <route refId="park1-g1" probability="0.34"/>
+        <route refId="park1-g2" probability="0.33"/>
+    </routeDistribution>
+    <routeDistribution id="park2-exit">
+        <route refId="park2-g3" probability="0.33"/>
+        <route refId="park2-g1" probability="0.33"/>
+        <route refId="park2-g2" probability="0.34"/>
+    </routeDistribution>
+    <routeDistribution id="pre-exit">
+        <route refId="pre-g3" probability="0.33"/>
+        <route refId="pre-g1" probability="0.33"/>
+        <route refId="pre-g2" probability="0.34"/>
+    </routeDistribution>
+    <routeDistribution id="shs-exit">
+        <route refId="shs-g1" probability="0.34"/>
+        <route refId="shs-g3" probability="0.33"/>
+        <route refId="shs-g2" probability="0.33"/>
+    </routeDistribution>
+    <!-- Vehicles, persons and containers (sorted by depart) -->
+    <flow id="g3Cars_s1" begin="0.00" end="900.00" perHour="92.00" route="g3Routes"/>
+    <vehicle id="test_g3_s1" depart="450.00" color="magenta" route="g3-pre"/>
+    <flow id="g2Cars_s1" begin="900.00" end="1800.00" perHour="100.00" route="g2Routes"/>
+    <flow id="g3Cars_s2" begin="900.00" end="1800.00" perHour="483.87" route="g3Routes"/>
+    <vehicle id="test_g2_s1" depart="1350.00" color="magenta" route="g2-gym"/>
+    <vehicle id="test_g3_s2" depart="1350.00" color="magenta" route="g3-pre"/>
+    <flow id="g1Cars_s1" begin="1800.00" end="2700.00" perHour="83.99" route="g1Routes"/>
+    <flow id="g2Cars_s2" begin="1800.00" end="2700.00" perHour="588.24" route="g2Routes"/>
+    <flow id="g3Cars_s3" begin="1800.00" end="2700.00" perHour="520.23" route="g3Routes"/>
+    <vehicle id="test_g1_s1" depart="2250.00" color="magenta" route="g1-gym"/>
+    <vehicle id="test_g2_s2" depart="2250.00" color="magenta" route="g2-gym"/>
+    <vehicle id="test_g3_s3" depart="2250.00" color="magenta" route="g3-pre"/>
+    <flow id="g1Cars_s2" begin="2700.00" end="3600.00" perHour="400.00" route="g1Routes"/>
+    <flow id="g2Cars_s3" begin="2700.00" end="3600.00" perHour="736.20" route="g2Routes"/>
+    <flow id="g3Cars_s4" begin="2700.00" end="3600.00" perHour="520.23" route="g3Routes"/>
+    <vehicle id="test_g1_s2" depart="3150.00" color="magenta" route="g1-gym"/>
+    <vehicle id="test_g2_s3" depart="3150.00" color="magenta" route="g2-gym"/>
+    <vehicle id="test_g3_s4" depart="3150.00" color="magenta" route="g3-pre"/>
+    <flow id="g1Cars_s3" begin="3600.00" end="4500.00" perHour="680.53" route="g1Routes"/>
+    <flow id="g2Cars_s4" begin="3600.00" end="4500.00" perHour="491.80" route="g2Routes"/>
+    <flow id="g3Cars_s5" begin="3600.00" end="4500.00" perHour="380.15" route="g3Routes"/>
+    <vehicle id="test_g1_s3" depart="4050.00" color="magenta" route="g1-gym"/>
+    <vehicle id="test_g2_s4" depart="4050.00" color="magenta" route="g2-gym"/>
+    <vehicle id="test_g3_s5" depart="4050.00" color="magenta" route="g3-pre"/>
+    <flow id="g1Cars_s4" begin="4500.00" end="5400.00" perHour="604.03" route="g1Routes"/>
+    <flow id="g2Cars_s5" begin="4500.00" end="5400.00" perHour="668.03" route="g2Routes"/>
+    <flow id="g3Cars_s6" begin="4500.00" end="5400.00" perHour="365.85" route="g3Routes"/>
+    <vehicle id="test_g1_s4" depart="4950.00" color="magenta" route="g1-gym"/>
+    <vehicle id="test_g2_s5" depart="4950.00" color="magenta" route="g2-gym"/>
+    <vehicle id="test_g3_s6" depart="4950.00" color="magenta" route="g3-pre"/>
+    <flow id="g1Cars_s5" begin="5400.00" end="6300.00" perHour="112.01" route="g1Routes"/>
+    <vehicle id="test_g1_s5" depart="5850.00" color="magenta" route="g1-gym"/>
+    <flow id="g1Cars_s6" begin="6300.00" end="7200.00" perHour="8.00" route="g1Routes"/>
+    <vehicle id="test_g1_s6" depart="6750.00" color="magenta" route="g1-gym"/>
+</routes>
